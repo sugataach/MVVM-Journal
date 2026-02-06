@@ -11,7 +11,7 @@ import SwiftUI
 struct MVVM_JournalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
                 .environment(\.font, CustomFont.body)
         }
     }

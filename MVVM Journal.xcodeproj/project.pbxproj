@@ -28,6 +28,7 @@
 		EF7976AA2F35849400E9171E /* MVVM JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM JournalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7976B42F35849400E9171E /* MVVM JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7976DF2F35881B00E9171E /* MVVM Journal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Journal.xcodeproj"; sourceTree = "<group>"; };
+		EF98C54A2F358E9000D9D508 /* MVVM Journal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Journal.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +83,13 @@
 			sourceTree = "<group>";
 		};
 		EF7976E12F35881B00E9171E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF98C54C2F358E9000D9D508 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -192,6 +200,10 @@
 				{
 					ProductGroup = EF7976E12F35881B00E9171E /* Products */;
 					ProjectRef = EF7976DF2F35881B00E9171E /* MVVM Journal.xcodeproj */;
+				},
+				{
+					ProductGroup = EF98C54C2F358E9000D9D508 /* Products */;
+					ProjectRef = EF98C54A2F358E9000D9D508 /* MVVM Journal.xcodeproj */;
 				},
 			);
 			projectRoot = "";
