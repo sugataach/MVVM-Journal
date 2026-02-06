@@ -27,24 +27,12 @@
 		EF79769D2F35849200E9171E /* MVVM Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7976AA2F35849400E9171E /* MVVM JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM JournalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7976B42F35849400E9171E /* MVVM JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7976DF2F35881B00E9171E /* MVVM Journal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Journal.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EF7976D12F35870900E9171E /* Exceptions for "MVVM Journal" folder in "MVVM Journal" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"MVVM-Journal-Info.plist",
-			);
-			target = EF79769C2F35849200E9171E /* MVVM Journal */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EF79769F2F35849200E9171E /* MVVM Journal */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EF7976D12F35870900E9171E /* Exceptions for "MVVM Journal" folder in "MVVM Journal" target */,
-			);
 			path = "MVVM Journal";
 			sourceTree = "<group>";
 		};
@@ -89,6 +77,13 @@
 				EF79769D2F35849200E9171E /* MVVM Journal.app */,
 				EF7976AA2F35849400E9171E /* MVVM JournalTests.xctest */,
 				EF7976B42F35849400E9171E /* MVVM JournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7976E12F35881B00E9171E /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +188,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EF79769E2F35849200E9171E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EF7976E12F35881B00E9171E /* Products */;
+					ProjectRef = EF7976DF2F35881B00E9171E /* MVVM Journal.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EF79769C2F35849200E9171E /* MVVM Journal */,
