@@ -29,6 +29,7 @@
 		EF7976B42F35849400E9171E /* MVVM JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7976DF2F35881B00E9171E /* MVVM Journal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Journal.xcodeproj"; sourceTree = "<group>"; };
 		EF98C54A2F358E9000D9D508 /* MVVM Journal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Journal.xcodeproj"; sourceTree = "<group>"; };
+		EF98C57D2F35916C00D9D508 /* MVVM Journal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Journal.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -90,6 +91,13 @@
 			sourceTree = "<group>";
 		};
 		EF98C54C2F358E9000D9D508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF98C57F2F35916C00D9D508 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -197,6 +205,10 @@
 			productRefGroup = EF79769E2F35849200E9171E /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = EF98C57F2F35916C00D9D508 /* Products */;
+					ProjectRef = EF98C57D2F35916C00D9D508 /* MVVM Journal.xcodeproj */;
+				},
 				{
 					ProductGroup = EF7976E12F35881B00E9171E /* Products */;
 					ProjectRef = EF7976DF2F35881B00E9171E /* MVVM Journal.xcodeproj */;
@@ -409,11 +421,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MVVM-Journal-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,11 +456,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MVVM-Journal-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

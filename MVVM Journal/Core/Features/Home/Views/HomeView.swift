@@ -9,13 +9,33 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, journal!")
+        NavigationStack {
+            ZStack {
+                AppColorTheme.backgroundColor.ignoresSafeArea()
+                mainContent
+                    .navigationTitle("MVVM Journal")
+                    .toolbarBackground(AppColorTheme.secondaryBackgroundColor.opacity(0.5), for: .navigationBar)
+                    .toolbarBackgroundVisibility(.visible, for: .navigationBar)
+                    .toolbar {
+                        addButton
+                    }
+            }
         }
-        .padding()
+    }
+}
+
+extension HomeView {
+    private var mainContent: some View {
+        Text("Hello Journal!")
+    }
+    
+    private var addButton: some View {
+        Button {
+            
+        } label: {
+            Image(systemName: "plus.app")
+                .font(.system(size: 18, weight: .semibold))
+        }
     }
 }
 
