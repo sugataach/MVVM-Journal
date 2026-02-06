@@ -50,6 +50,11 @@ xcuserdata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,xcode
 
