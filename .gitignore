@@ -1,6 +1,14 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,xcode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode
 
+# Ignore generated Xcode project files except SwiftPM resolved packages to pin versions in teams
+*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+*.xcodeproj/project.xcworkspace/xcshareddata/*.xcsettings
+*.xcodeproj/project.xcworkspace/xcshareddata/*.plist
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/*
+!*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
 ### macOS ###
 # General
 .DS_Store
@@ -50,6 +58,11 @@ xcuserdata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,xcode
 
